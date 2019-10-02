@@ -1,5 +1,6 @@
 @import "_contact";
 @import "_index";
+@import "_shop";
 $background: radial-gradient(circle, rgba(161,161,161,1) 21%, rgba(39,48,59,1) 100%);
 
 body{
@@ -21,4 +22,3 @@ background: $background;
 }
 
 
-@import "_about";
