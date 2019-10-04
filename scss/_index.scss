@@ -1,4 +1,39 @@
-img {
-  max-height: 600px;
-  object-fit: cover
+$color: #ffffff;
+
+
+body{
+  img {
+    max-height: 600px;
+    object-fit: cover
+  }
+  .holder {
+    @media(min-width:992px){
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .left{
+      background: $color;
+      box-shadow: 0 0 24px 0 rgba(0,0,0,0.75);
+      margin: 25px;
+      height: fit-content;
+      border-radius: 10px;
+
+      p{
+        padding: 15px;
+        margin: 0;
+      }
+    }
+    .right {
+
+      .inside {
+        background: $color;
+        margin: 25px;
+        box-shadow: 0 0 24px 0 rgba(0,0,0,0.75);
+        border-radius: 10px;
+
+      }
+    }
+  }
+
+
 }

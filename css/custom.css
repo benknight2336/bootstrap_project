@@ -1,23 +1,50 @@
 body {
+  margin: 0 0 50px 0;
+  padding: 0;
+  background: linear-gradient(180deg, #a1a1a1 30%, #27303b 89%);
+  background-size: cover; }
+  body nav i {
+    color: #424952; }
+  body .jumbotron {
+    background: linear-gradient(180deg, #27303b 16%, #a1a1a1 84%); }
+
+body {
   width: 100%; }
   body form {
     width: 80%; }
-
-img {
-  max-height: 600px;
-  object-fit: cover; }
+    body form label {
+      color: #ffffff; }
 
 .card {
   box-shadow: 0 0 17px 4px rgba(0, 0, 0, 0.75);
   margin: 10px;
   max-width: 40rem; }
 
-body {
-  margin: 0 0 50px 0;
-  padding: 0;
-  background: radial-gradient(circle, #a1a1a1 21%, #27303b 100%);
-  background-size: cover; }
-  body nav i {
-    color: #424952; }
-  body .jumbotron {
-    background: radial-gradient(circle, #a1a1a1 21%, #27303b 100%); }
+.card:hover {
+  transform: scale(1.05);
+  transition: .4s; }
+
+body img {
+  max-height: 600px;
+  object-fit: cover; }
+
+@media (min-width: 992px) {
+  body .holder {
+    display: flex;
+    justify-content: space-evenly; } }
+
+body .holder .left {
+  background: #ffffff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.75);
+  margin: 25px;
+  height: fit-content;
+  border-radius: 10px; }
+  body .holder .left p {
+    padding: 15px;
+    margin: 0; }
+
+body .holder .right .inside {
+  background: #ffffff;
+  margin: 25px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 10px; }

@@ -3,3 +3,7 @@
   margin: 10px;
   max-width: 40rem;
 }
+.card:hover{
+  transform: scale(1.05);
+  transition: .4s;
+}
